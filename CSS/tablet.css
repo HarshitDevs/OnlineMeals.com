@@ -1,0 +1,116 @@
+/* NAVBAR LINK SIZE */
+
+.nav-list a {
+    padding: 12px;
+}
+
+
+/* WELCOME */
+
+#welcome {
+    height: 50vh;
+}
+
+#caption {
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+.readbtn {
+    top: 6px;
+    height: 5vh;
+    width: 20vw;
+}
+
+
+/* MENU */
+
+#menu {
+    height: 30vh;
+}
+
+.img {
+    height: 20vh;
+}
+
+.btnmenu {
+    left: 15px;
+}
+
+
+/* CONTACT1 */
+
+.contact {
+    height: 40vh;
+}
+
+.captiondetails {
+    font-size: 2rem;
+}
+
+.details {
+    height: 30vh;
+}
+
+
+/* HOTEL DETAILS */
+
+.hotel {
+    height: 60vh;
+}
+
+.head {
+    top: 100px;
+}
+
+.captionhotel {
+    top: 125px;
+}
+
+.samplehotel {
+    top: 142px;
+}
+
+#Hotel {
+    height: 6vh;
+    width: 19vw;
+    top: 174px;
+    left: 26px;
+}
+
+
+/* BLOGS  */
+
+#blog {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.post {
+    height: 40vh;
+}
+
+.post h3 {
+    font-size: 2rem;
+}
+
+.post p {
+    font-size: 2rem;
+}
+
+.blogbtn {
+    height: 6vh;
+    width: 40vw;
+}
+
+
+/* MISSION/ABOUT US */
+
+.foodpic {
+    display: none;
+}
+
+.missionbtn {
+    width: 17vh;
+    height: 10vw;
+}

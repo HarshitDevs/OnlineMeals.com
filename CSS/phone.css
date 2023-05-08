@@ -1,0 +1,174 @@
+/* Navbar */
+
+.navigation li a {
+    font-size: small;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 9px;
+}
+
+
+/* Welcome */
+
+#caption {
+    font-size: 1.5rem;
+    width: 85vw;
+}
+
+#welcome {
+    margin-top: -10px;
+    height: 64vh;
+}
+
+.readbtn {
+    left: 8px;
+    width: 50vw;
+    height: 6vh;
+}
+
+
+/* blog */
+
+#blog {
+    flex-direction: column;
+}
+
+.post {
+    height: 30vh;
+}
+
+.blogbtn {
+    width: 25vw;
+}
+
+
+/* Menu */
+
+#menu {
+    flex-direction: column;
+    height: 90vh;
+}
+
+.img {
+    margin: auto;
+    width: 60vw;
+    height: 100px;
+}
+
+.btnmenu {
+    position: relative;
+    width: 30vw;
+    left: 110px;
+    top: 9px;
+    height: 30px;
+}
+
+
+/* contact number */
+
+.captiondetails {
+    font-size: 1.5rem;
+}
+
+#Sample {
+    top: 2px;
+    text-align: center;
+}
+
+.number {
+    top: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.icon_call {
+    position: relative;
+    left: 9px;
+}
+
+.contact {
+    height: 40vh;
+}
+
+.details {
+    height: 35vh;
+}
+
+
+/* Restaurant */
+
+.head {
+    top: 60px;
+}
+
+.hotel {
+    height: 50vh;
+}
+
+.captionhotel {
+    top: 110px;
+    font-size: 1.5rem;
+    width: 80vw;
+    color: white;
+}
+
+.samplehotel {
+    top: 130px;
+    width: 86vw;
+}
+
+#Hotel {
+    width: 120px;
+    left: 20px;
+    top: 170px;
+}
+
+
+/* form */
+
+.txtarea {
+    position: relative;
+    top: 20px;
+    width: 50vw;
+}
+
+#mail {
+    width: 50vw;
+    text-align: center;
+}
+
+.fromsubmit {
+    bottom: -30px;
+}
+
+
+/* About us */
+
+.aboutus {
+    height: 45vh;
+}
+
+#missionhead {
+    font-size: 1rem;
+}
+
+.missioncaption {
+    font-size: 1rem;
+}
+
+.missionbtn {
+    width: 20vw;
+}
+
+.foodpic {
+    display: none;
+}
+
+.end {
+    font-size: 0.8rem;
+    width: 97.9vw;
+}

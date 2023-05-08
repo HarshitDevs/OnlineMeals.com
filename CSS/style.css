@@ -1,0 +1,511 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(251, 251, 238);
+}
+
+
+/* HTML RESET */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+
+#navbar {
+    position: relative;
+    top: 0px;
+    height: 8vh;
+}
+
+.navigation {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+#home {
+    color: rgb(176, 132, 75);
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+.nav-list a:hover {
+    color: rgb(206, 176, 136);
+}
+
+
+/* WELCOME SECTION */
+
+#welcome {
+    position: relative;
+    top: -11px;
+    width: 90vw;
+    margin: auto;
+    height: 75vh;
+    border-radius: 45px;
+    background-image: url("../Images/Cook.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.offer {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    background-color: greenyellow;
+    width: 188px;
+    height: 186px;
+    border-radius: 100px;
+}
+
+.offer h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.offer p {
+    position: relative;
+    top: 55px;
+    width: 100px;
+    left: 42px;
+    top: 55px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.para {
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: 37px;
+    left: 20px;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+
+#caption {
+    position: relative;
+    top: 9px;
+    width: 520px;
+    font-size: 3rem;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+
+.readbtn {
+    border: none;
+    width: 15vw;
+    height: 8vh;
+    border-radius: 33px;
+    background-color: orange;
+    position: relative;
+    left: -5px;
+    top: 30px;
+    color: white;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 1rem;
+    transition: background-color 1s ease-in-out .3s;
+}
+
+.readbtn:hover {
+    background-color: rgb(214, 214, 135);
+    cursor: pointer;
+}
+
+
+/* MENU */
+
+.headmenu {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#menu {
+    height: 60vh;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.pizza {
+    margin-left: 16px;
+}
+
+.img {
+    display: flex;
+    height: 295px;
+    width: 20vw;
+    border-radius: 40px;
+}
+
+#pizzaimg {
+    background-image: url("../Images/pizza.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dessertimg {
+    background-image: url("../Images/dessert.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#saladimg {
+    background-image: url("../Images/salad.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#drinksimg {
+    background-image: url("../Images/drinks.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 9px;
+}
+
+.btnmenu {
+    border: none;
+    position: relative;
+    left: 35px;
+    top: 26px;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 13px;
+    background-color: #d99d0d;
+    color: white;
+}
+
+.btnmenu:hover {
+    border: 2px solid #bd870a;
+    background-color: white;
+    color: #d99d0d;
+    cursor: pointer;
+}
+
+.sample {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 1.225rem;
+    font-family: Raleway, sans-serif;
+}
+
+
+/* CONTACT NUMBER */
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #99e54d;
+    height: 60vh;
+}
+
+.details {
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    height: 40vh;
+}
+
+.captiondetails {
+    font-size: 3rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    line-height: 2.1;
+}
+
+#Sample {
+    position: relative;
+    bottom: 17px;
+}
+
+.number {
+    font-size: 2rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    bottom: 31px;
+    left: 13px;
+}
+
+.number:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.icon_call {
+    background-image: url('../Images/Call.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: -170px;
+}
+
+
+/* OUR RESTUARANT */
+
+.hotel {
+    color: white;
+    position: relative;
+    top: 60px;
+    width: 90vw;
+    margin: auto;
+    height: 100vh;
+    border-radius: 45px;
+    background-image: url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.head {
+    display: inline-block;
+    position: relative;
+    top: 230px;
+    left: 25px;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.252rem;
+}
+
+.captionhotel {
+    position: relative;
+    top: 250px;
+    left: 25px;
+    width: 416px;
+    font-family: Montserrat, sans-serif;
+    font-size: 3.1rem;
+}
+
+.samplehotel {
+    position: relative;
+    top: 264px;
+    font-family: Raleway, sans-serif;
+    left: 25px;
+}
+
+.freepick {
+    top: 231px;
+    position: relative;
+    display: inline-block;
+    left: 111px;
+    color: #f4be41;
+    font-size: 1rem;
+}
+
+.freepick:hover {
+    color: #bd870a;
+    cursor: pointer;
+}
+
+#Hotel {
+    top: 292px;
+    left: 23px;
+    border: none;
+}
+
+
+/* BLOGS */
+
+.bloghead {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 2.1rem;
+    font-family: Montserrat, sans-serif;
+}
+
+#blog {
+    display: flex;
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    top: 15px;
+    width: 85vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.post {
+    margin: 20px;
+    text-align: center;
+    height: 50vh;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.post p {
+    position: relative;
+    top: 60px;
+}
+
+.post h3 {
+    position: relative;
+    top: 12px;
+}
+
+.blogbtn {
+    width: 13vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    background-color: #99e54d;
+    font-weight: bolder;
+    position: relative;
+    top: 100px;
+}
+
+.blogbtn:hover {
+    border: 2px solid #bd870a;
+    color: #bd870a;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/* FORM */
+
+#form {
+    background-color: #d7a531;
+}
+
+#mail {
+    position: relative;
+    right: 3px;
+    width: 30vw;
+    height: 5vh;
+    border-radius: 13px;
+    border: 2px solid black;
+}
+
+.fromsubmit {
+    height: 38px;
+    width: 100px;
+    border-radius: 13px;
+    background-color: #99e54d;
+    border: none;
+    position: relative;
+    left: -7px;
+    bottom: -5px;
+}
+
+.fromsubmit:hover {
+    background-color: white;
+    border: 2px solid #99e54d;
+    color: #99e54d;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* ABOUT US */
+
+.aboutus {
+    display: flex;
+    /* flex-direction: column; */
+    position: relative;
+    top: 20px;
+    width: 85vw;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    height: 50vh;
+}
+
+.foodpic {
+    background-image: url('../Images/Mission.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vw;
+    border-radius: 20px;
+    height: 50vh;
+}
+
+.missionpapra {
+    padding-left: 50px;
+}
+
+#missionhead {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.missioncaption {
+    margin-top: 20px;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.missionbtn {
+    height: 6vh;
+    width: 9vw;
+    border-radius: 13px;
+    background-color: #99e54d;
+    border: none;
+    position: relative;
+    left: -5px;
+    bottom: -15px;
+    color: white;
+}
+
+.missionbtn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #99e54d;
+    border: 2px solid green;
+}
+
+
+/* ENDING */
+
+.end {
+    color: white;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 98.5vw;
+}
